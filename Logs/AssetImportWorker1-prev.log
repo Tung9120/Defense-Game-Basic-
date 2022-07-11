@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Lenovo/Desktop/Defense-Game-Basic-
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64968
+Successfully changed project path to: C:/Users/Lenovo/Desktop/Defense-Game-Basic-
+C:/Users/Lenovo/Desktop/Defense-Game-Basic-
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Desktop/Defense-Game-Basic-/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.14.7256
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004105 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005992 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.4 KB). Loaded Objects now: 4500.
+Memory consumption went from 151.2 MB to 151.0 MB.
+Total: 4.873900 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.224300 ms MarkObjects: 3.976500 ms  DeleteObjects: 0.215800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3049.159998 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_14.png
+  artifactKey: Guid(f71956a3603605a428c4d967c67e479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_14.png using Guid(f71956a3603605a428c4d967c67e479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e624a0da5ff6563256de1fd6ae19f01') in 0.180925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_07.png
+  artifactKey: Guid(a3e5ec0025e1aa7448184637c8ed896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_07.png using Guid(a3e5ec0025e1aa7448184637c8ed896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea1c181b47d7c2c1df1677d5ca32605') in 0.048558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_12.png
+  artifactKey: Guid(95dbbfcfdff84244384911e96b2620d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_12.png using Guid(95dbbfcfdff84244384911e96b2620d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90515a9a5dd1e6c6ae5cc36deb294934') in 0.059409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_11.png
+  artifactKey: Guid(1d36d782b8335c943a38c79c62c7e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_11.png using Guid(1d36d782b8335c943a38c79c62c7e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33c9e9ee0c1172ae7d0556b6746ffa1') in 0.048097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack
+  artifactKey: Guid(39800d0bf13b980498b17237cdb94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack using Guid(39800d0bf13b980498b17237cdb94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0155179df187aaa4631b46d65871f2') in 0.007369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_06.png
+  artifactKey: Guid(28b6629933acd904fa187d77ab941d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_06.png using Guid(28b6629933acd904fa187d77ab941d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafeb8b0acbfccacd33c21fb8b1ea4b3') in 0.038663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01
+  artifactKey: Guid(3c33e1affba83084ea8abab56b40c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01 using Guid(3c33e1affba83084ea8abab56b40c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b504e44559c5e8b00f7dcbb079700377') in 0.007016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero
+  artifactKey: Guid(586e29e2c33e271468f6c9593dfba051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero using Guid(586e29e2c33e271468f6c9593dfba051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735902d387d510db28369bb9ae08ff71') in 0.007673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_10.png
+  artifactKey: Guid(ffd93879dc7acbf449dbb4e0be73f084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_10.png using Guid(ffd93879dc7acbf449dbb4e0be73f084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262d244b96a2c23824cdbd8baebb9193') in 0.040334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_09.png
+  artifactKey: Guid(268f0eeb40428364f9834439bd44590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_09.png using Guid(268f0eeb40428364f9834439bd44590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7554dc5144f896657545faecb42140c1') in 0.043357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_01.png
+  artifactKey: Guid(2ed48c5165d97584a989c999ce0a4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_01.png using Guid(2ed48c5165d97584a989c999ce0a4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb25de1b9af4fbc0a93a48b7f5d505') in 0.047443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_16.png
+  artifactKey: Guid(bedbdc6d564b90545955ea286c7527ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Attack/Attack_16.png using Guid(bedbdc6d564b90545955ea286c7527ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa91694d5fb03a0a9ceae953852d3494') in 0.048951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.327636 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_02.png
+  artifactKey: Guid(b27c67421409085419540a47080cdb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_02.png using Guid(b27c67421409085419540a47080cdb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867567df91c33e134f81f39e404612a9') in 0.051483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_14.png
+  artifactKey: Guid(dbcfbfa1717b7b44ba61a2a748acff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_14.png using Guid(dbcfbfa1717b7b44ba61a2a748acff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b2417898b9b33fd0374f0fce4cc7b') in 0.044278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_15.png
+  artifactKey: Guid(98652484b92ad23429325d2f584f4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_15.png using Guid(98652484b92ad23429325d2f584f4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba21287f9b8d1c4439d114c6e23e7317') in 0.045240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_08.png
+  artifactKey: Guid(971158ea0eaba3648b57360f0164ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_08.png using Guid(971158ea0eaba3648b57360f0164ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365a8fc52678c09755833961b2560e0a') in 0.048873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_10.png
+  artifactKey: Guid(1db589434c86c2845baeda5a9b5b3b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_10.png using Guid(1db589434c86c2845baeda5a9b5b3b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c472d4b15d2021701c6e9f95a7bcab') in 0.050785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_16.png
+  artifactKey: Guid(8e6c15ee55ac6a74eaaeda9deed28901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/02/Attack/Attack_16.png using Guid(8e6c15ee55ac6a74eaaeda9deed28901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5310ccfe49ad0bd16f3d044d8e333456') in 0.045506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 582.111848 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_01.png
+  artifactKey: Guid(f12b713bf6d2dcf45ac19a6590f3fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_01.png using Guid(f12b713bf6d2dcf45ac19a6590f3fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab59d19091464ed715e467a9e22ef2f') in 0.058004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_16.png
+  artifactKey: Guid(769d0f49f0dd0cd4082a05e072c637d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_16.png using Guid(769d0f49f0dd0cd4082a05e072c637d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be45a17ed6091b7b0e30b3301a8454a') in 0.052767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_17.png
+  artifactKey: Guid(2c6a2ba436dff8948a70c9333341daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_17.png using Guid(2c6a2ba436dff8948a70c9333341daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f901070f511f420f59be2694675c85') in 0.051064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_18.png
+  artifactKey: Guid(5234def29c8e5ed44b1a51ca2d0a4114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_18.png using Guid(5234def29c8e5ed44b1a51ca2d0a4114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b957fe7c7ec055deb813aedc24dc48') in 0.053595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_15.png
+  artifactKey: Guid(829f2dd8acff4054f861b89217e04977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_15.png using Guid(829f2dd8acff4054f861b89217e04977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e8a7d72c83ec9ed640895eba531bd1') in 0.046899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_19.png
+  artifactKey: Guid(fcf659b6d98a8e6469c51731e6d7f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_19.png using Guid(fcf659b6d98a8e6469c51731e6d7f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ef30d25144ca0349ec123b5a5f9a9') in 0.051303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_12.png
+  artifactKey: Guid(d8eb8b604ecf892439a7fb57caa7694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_12.png using Guid(d8eb8b604ecf892439a7fb57caa7694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78f4c614873d5b175df3a1b0d8740bb') in 0.048600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_03.png
+  artifactKey: Guid(df450646575dd9b4aa8de9bcff1dcc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_03.png using Guid(df450646575dd9b4aa8de9bcff1dcc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cdc55a4663f6c79bb57f8f08e29f87') in 0.045822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_06.png
+  artifactKey: Guid(66cb09055044ad4499e54a50e6afa874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_06.png using Guid(66cb09055044ad4499e54a50e6afa874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aecc0d747c1046ea5b5737120443582') in 0.046883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_07.png
+  artifactKey: Guid(cd16fdb9f9682ed45b67c4d163654a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/01/Death/Death_07.png using Guid(cd16fdb9f9682ed45b67c4d163654a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47065998722f19dc112158532a6a8339') in 0.062285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.422806 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_02.png
+  artifactKey: Guid(d4d4388d2d9682849bed39f3708f7d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_02.png using Guid(d4d4388d2d9682849bed39f3708f7d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cda74708257f8ecc40a9b3b3fbf261') in 0.080188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_05.png
+  artifactKey: Guid(11cc2f7fdab4d114697f8c75abfe9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_05.png using Guid(11cc2f7fdab4d114697f8c75abfe9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fc3d2054adc113678e1a954c79856f') in 0.049655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_13.png
+  artifactKey: Guid(31df2fa91a7e04c4aa2a370c926c3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_13.png using Guid(31df2fa91a7e04c4aa2a370c926c3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0381a519932482250bbe71fc253471') in 0.054041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_28.png
+  artifactKey: Guid(a7c3a312333df554c8d0a29035b3bb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_28.png using Guid(a7c3a312333df554c8d0a29035b3bb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edc917a33c11643f3e319a065236fb5') in 0.049555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_22.png
+  artifactKey: Guid(b9ef0e1c6cd42bb42877028a0359b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_22.png using Guid(b9ef0e1c6cd42bb42877028a0359b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705b3339ad55e18fd76cd6a4b1b708db') in 0.057552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_11.png
+  artifactKey: Guid(1af164ab21a99e041a7a444860ffcaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_11.png using Guid(1af164ab21a99e041a7a444860ffcaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd990c930cca2e18c9eb4aa2fd5a619a8') in 0.053453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_07.png
+  artifactKey: Guid(8d5426d93016cb84b82b1ccbdbec92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_07.png using Guid(8d5426d93016cb84b82b1ccbdbec92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61913261a0b0a42a5e4c9b41dcc32a98') in 0.052701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_04.png
+  artifactKey: Guid(b5c6016fe680109408b503589d64cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_04.png using Guid(b5c6016fe680109408b503589d64cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a5f672bdfb7f5a381808213495d1a9') in 0.050682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_26.png
+  artifactKey: Guid(26d2e5caa4117924aa8c595acb44b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Arts/Sprites/Hero/03/Attack/Attack_26.png using Guid(26d2e5caa4117924aa8c595acb44b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8564299bd0882af64d3c9fabbfc9f7') in 0.048330 seconds 
