@@ -75,17 +75,17 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.2
         value: {x: 0.24, y: 0.32, z: 0}
-        inSlope: {x: -3.7500002, y: 0, z: 0}
-        outSlope: {x: -3.7500002, y: 0, z: 0}
+        inSlope: {x: -5.400001, y: 0, z: 0}
+        outSlope: {x: -5.400001, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.23333333
-        value: {x: 0.08, y: 0.3, z: 0}
-        inSlope: {x: -12.800001, y: -1.5999987, z: 0}
-        outSlope: {x: -12.800001, y: -1.5999987, z: 0}
+        value: {x: -0.45, y: -0.31, z: 0}
+        inSlope: {x: -16.000002, y: -24.200003, z: 0}
+        outSlope: {x: -16.000002, y: -24.200003, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -131,7 +131,53 @@ AnimationClip:
       m_RotationOrder: 4
     path: Weapon
   m_ScaleCurves: []
-  m_FloatCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Weapon
+    classID: 1
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -184,6 +230,13 @@ AnimationClip:
       attribute: 1
       script: {fileID: 0}
       typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1855955664
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
@@ -292,17 +345,17 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.2
         value: 0.24
-        inSlope: -3.7500002
-        outSlope: -3.7500002
+        inSlope: -5.400001
+        outSlope: -5.400001
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.23333333
-        value: 0.08
-        inSlope: -12.800001
-        outSlope: -12.800001
+        value: -0.45
+        inSlope: -16.000002
+        outSlope: -16.000002
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -418,9 +471,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.23333333
-        value: 0.3
-        inSlope: -1.5999987
-        outSlope: -1.5999987
+        value: -0.31
+        inSlope: -24.200003
+        outSlope: -24.200003
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -585,6 +638,52 @@ AnimationClip:
     attribute: m_LocalPosition.z
     path: Weapon
     classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Weapon
+    classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
