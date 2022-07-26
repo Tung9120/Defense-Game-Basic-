@@ -35,7 +35,9 @@ namespace Tung9120.DefenseBasic
         {
             if (IsComponentsNull()) return;
 
-            if (Vector2.Distance(m_player.transform.position, transform.position) <= atkDistance)
+            float distToPlayer = Vector2.Distance(m_player.transform.position, transform.position);
+
+            if (distToPlayer <= atkDistance)
             {
                 m_anim.SetBool(Const.ATTACK_ANIM, true);
                 m_rb.velocity = Vector2.zero;
@@ -43,6 +45,17 @@ namespace Tung9120.DefenseBasic
             else
             {
                 m_rb.velocity = new Vector2(-speed, m_rb.velocity.y);
+            }
+        }
+
+        public void Die()
+        {
+            {
+                if (IsComponentsNull()) return;
+
+                m_anim.SetTrigger(Const.DEAD_ANIM);
+                m_rb.velocity = Vector2.zero;
+                gameObject.layer = LayerMask.NameToLayer(Const.DEAD_LAYER);
             }
         }
     }
