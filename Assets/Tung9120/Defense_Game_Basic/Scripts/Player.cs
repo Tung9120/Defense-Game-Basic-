@@ -26,7 +26,7 @@ namespace Tung9120.DefenseBasic
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetMouseButtonDown(0) && !m_isAttacked)
+            if (Input.GetKeyDown("space") && !m_isAttacked)
             {
                 if (m_anim)
                     m_anim.SetBool(Const.ATTACK_ANIM, true);

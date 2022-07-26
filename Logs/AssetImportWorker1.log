@@ -15,7 +15,7 @@ C:/Users/Lenovo/Desktop/Defense-Game-Basic-
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61664
+53333
 Successfully changed project path to: C:/Users/Lenovo/Desktop/Defense-Game-Basic-
 C:/Users/Lenovo/Desktop/Defense-Game-Basic-
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Lenovo/Desktop/Defense-Game-Basic-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 88.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 88.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003818 seconds.
+Registered in 0.003173 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
+- Completed reload, in  0.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (280ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003984 seconds.
+Registered in 0.005010 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 102.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.284 seconds
+- Completed reload, in  1.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1285ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (1280ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (149ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (501ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (225.9 KB). Loaded Objects now: 4500.
-Memory consumption went from 151.2 MB to 150.9 MB.
-Total: 8.073000 ms (FindLiveObjects: 0.585000 ms CreateObjectMapping: 0.682300 ms MarkObjects: 6.332600 ms  DeleteObjects: 0.471200 ms)
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.3 KB). Loaded Objects now: 4504.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 7.065100 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.209600 ms MarkObjects: 6.306900 ms  DeleteObjects: 0.172600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,57 +166,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 435885.553124 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143523d2094ba2dfe9d5932ef8a28a67') in 1.185951 seconds 
+  Time since last request: 972302.289296 seconds.
+  path: Assets/Tung9120/Defense_Game_Basic/Scripts/Enemy.cs
+  artifactKey: Guid(d9e6d09c3356fae41a64eda56656ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tung9120/Defense_Game_Basic/Scripts/Enemy.cs using Guid(d9e6d09c3356fae41a64eda56656ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d349d9418d7e32b736e355284bb2ef1') in 0.051186 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003647 seconds.
+Registered in 0.004222 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.298 seconds
+- Completed reload, in  1.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1299ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1601ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1100ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (413ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (646ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.6 KB). Loaded Objects now: 4509.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 6.830000 ms (FindLiveObjects: 0.373000 ms CreateObjectMapping: 0.214600 ms MarkObjects: 6.044000 ms  DeleteObjects: 0.197000 ms)
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (192.2 KB). Loaded Objects now: 4507.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 7.408600 ms (FindLiveObjects: 0.831900 ms CreateObjectMapping: 0.340500 ms MarkObjects: 5.969400 ms  DeleteObjects: 0.264800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -232,50 +232,109 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003744 seconds.
+Registered in 0.004373 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
+- Completed reload, in  1.113 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1357ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1114ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (192.5 KB). Loaded Objects now: 4510.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 8.471200 ms (FindLiveObjects: 0.412300 ms CreateObjectMapping: 0.318300 ms MarkObjects: 7.256700 ms  DeleteObjects: 0.451800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003750 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1163ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1224ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (614ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (634ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.8 KB). Loaded Objects now: 4512.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 7.993500 ms (FindLiveObjects: 1.019200 ms CreateObjectMapping: 0.518500 ms MarkObjects: 6.172400 ms  DeleteObjects: 0.280200 ms)
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (192.4 KB). Loaded Objects now: 4513.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 6.952700 ms (FindLiveObjects: 0.698800 ms CreateObjectMapping: 0.598300 ms MarkObjects: 5.407900 ms  DeleteObjects: 0.246100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -291,50 +350,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005476 seconds.
+Registered in 0.003840 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.338 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1340ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (590ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (575ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.4 KB). Loaded Objects now: 4515.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 8.262000 ms (FindLiveObjects: 0.376200 ms CreateObjectMapping: 0.192200 ms MarkObjects: 7.499000 ms  DeleteObjects: 0.192000 ms)
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (192.6 KB). Loaded Objects now: 4516.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 6.931500 ms (FindLiveObjects: 0.651400 ms CreateObjectMapping: 0.229700 ms MarkObjects: 5.800900 ms  DeleteObjects: 0.246900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -347,706 +406,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004115 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.181 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1182ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (980ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (544ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.4 KB). Loaded Objects now: 4518.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 7.162600 ms (FindLiveObjects: 0.569100 ms CreateObjectMapping: 0.294900 ms MarkObjects: 6.073100 ms  DeleteObjects: 0.223700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006482 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (590ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.5 KB). Loaded Objects now: 4521.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 6.764600 ms (FindLiveObjects: 0.762600 ms CreateObjectMapping: 0.312500 ms MarkObjects: 5.433200 ms  DeleteObjects: 0.254000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003952 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1241ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1048ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (576ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (354ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.4 KB). Loaded Objects now: 4524.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 6.298700 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.268000 ms MarkObjects: 5.251600 ms  DeleteObjects: 0.264500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004214 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1077ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (578ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.3 KB). Loaded Objects now: 4527.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 6.675000 ms (FindLiveObjects: 0.452600 ms CreateObjectMapping: 0.363600 ms MarkObjects: 5.561500 ms  DeleteObjects: 0.295900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004062 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Desktop\Defense-Game-Basic-\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1253ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1053ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (579ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (192.6 KB). Loaded Objects now: 4530.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 7.762400 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.198500 ms MarkObjects: 6.786900 ms  DeleteObjects: 0.388700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2863.116090 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163d621d14fb92cc69773335c1a3488') in 0.623836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 241.870156 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490a75c357bddce7e8cf58805a7ea8f3') in 0.092940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e46b3820fc68dcf7fd4e6c6b065dbb3') in 0.086818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.277945 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731f5aa1ba7a4cc0abda1b80c86c1a36') in 0.079619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7c28944d358195657e610325409eb2') in 0.099359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.290134 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e4e6bf925824058822775a0bcc4ba') in 0.081672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab22d53e2a3085585740c5b4d509598') in 0.077154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d22d7ba6ae54186f1bb8db60c709d37') in 0.060880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 267.344191 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb34944c698030be2f70836fa5e5ca3a') in 0.076258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.150122 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acda322c9323b9a5fb7f3547422354bd') in 0.056533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.232999 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fa434e9a606384e87ca81774b2adea') in 0.056298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.649371 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a27bbe688e37710649e83f49eb802eb') in 0.108592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.470544 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f3cc97f14d612dc6e352b6ca9291ff') in 0.096724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.473327 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c1b5c932a154ffaf41dd6a44d30d3b') in 0.055587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.116741 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c50c0d6fac2ef59b2c02cc4aa0b1b7') in 0.053762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.848893 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69cd09d12b8be745cec9f7f91ecb8c6') in 0.068497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.255572 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e72cd7804265cdb5234b6cc424f387') in 0.057776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.578023 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251f071c2655225c8462e137a775c99f') in 0.090068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.094951 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d442e298ce8aa14204f6cb865d70d5') in 0.051662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.081686 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5199426ac6260cb2aec579f5a407c9') in 0.055311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153.965593 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08577e8dd8e1bb86a58ae5e12a124b0f') in 0.054925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.933919 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9be863ebc93e3cfde57caebee9b069') in 0.068499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.608145 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c024b4a9c23af0e334c00fc65cdaaf6') in 0.047491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.597256 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229ef712d6fcbaef9845d6d2a974efec') in 0.057991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.535056 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdcba42685b68ae0674f2336d42f21c') in 0.062615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.794448 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148f755ff7b9e2180d36917a51e3eca1') in 0.055265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.248229 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a47024ef6af009980aef98bcbce94d') in 0.080299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.987215 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b692442eaff91a164fe2909795e4a') in 0.074993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.283510 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980c6298d2708268b326774e80188fbb') in 0.055867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.544455 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab
-  artifactKey: Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_01.prefab using Guid(d5b8eef6400601a41b850e1214ee492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31561f1d38fbe13d6cc5fa16786e8103') in 0.064501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.732606 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837883961b4c147aac3ffcc8381136df') in 0.069869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.422812 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab
-  artifactKey: Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_02.prefab using Guid(586474deddc37c543949927533dd3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c360b85f7a715b1662f6ee4e0cf87def') in 0.067060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 158.003816 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba16c53c9eb237fdacab98644ea7cd9e') in 0.076423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.459938 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16370c8af17723c9c1b611d54cd42d9') in 0.073664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.824891 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff0ce7cd8f63cca0b08713af451a6b') in 0.077836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 479.068259 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc1696a33251c43ee49e1feb9847bb6') in 0.087297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.629812 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f9784361d185f320f954c692b9a8eb') in 0.074421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.730805 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d9fa452401aaf6445844b0037a196') in 0.080832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.566911 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ea154f4640b0f3f4d4e8be18323c24') in 0.070376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.300178 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aa063119230477aa0755784cfca43d') in 0.072952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.519436 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b361085a097271db5e958c660499a2') in 0.065816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.566672 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2669e0bab451a713e775dcea2d68d73e') in 0.062408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.446766 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5258844bfd125a4244c1ad6bf482a92d') in 0.071391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.897301 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc42df7367e3c958bc0fab1f3cbff181') in 0.066018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.377141 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67083031d265c5aefeb7844443376b5') in 0.060744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.217084 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c04ce80d9eb8ebcc045deffd4c9897') in 0.061598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.621766 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd3bbde2ebfac06cda7651ae26f8586') in 0.061398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.254310 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967b2c903774946e3c28108558829ba') in 0.061583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.046004 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c532d25322ed9342d6be946d36d2e30') in 0.072653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.002709 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab
-  artifactKey: Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Hero/Hero_03.prefab using Guid(45e35aa4a49568b4c8311e5291f0c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c551366899db61b17baf653477f7d4') in 0.068328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 93.463530 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e59b495ab386e9f305fff201659f3c3') in 0.086396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.298702 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0782e2258b9bf25810586bc5912a67ea') in 0.047588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.966816 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e2efba9f6ed379254a7a2f4b837234') in 0.055760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.641585 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ac0fb79758c94536694d9a96010a7d') in 0.049985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.574137 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d21e1d5ba94961b02c28473c45d177a') in 0.046206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.226538 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b106263c8fcb7a3a1128b6388f33b80') in 0.049254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.029839 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab
-  artifactKey: Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_01.prefab using Guid(a9671c00e4a5fb54d914bf18973521b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a4d2cf250de8f62f95cde8280df705') in 0.047154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.667282 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c831f121bb2a9b9034fb02723611a23f') in 0.085407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.312716 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea8c4f22eebc841f8d152461a59e22') in 0.065106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.779845 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a926397a18e2d79b0b1a6f414e8892') in 0.062892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.609394 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe2b7dfe187ee090544d789f90169e') in 0.077537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.202118 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab
-  artifactKey: Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_02.prefab using Guid(de0355e546e5874409e209bc102a50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f835fe5636245a52ccdaabb55fa5f40') in 0.066463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.961297 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deac2fece56dad6ac4a69bcecf30d89c') in 0.083540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.943674 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ab2c2f12176889683cd006073f75c') in 0.066218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.714297 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd8a78d8c5376ed5ed5b1dfd263b62b') in 0.073870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.975638 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d54f05e6c723a577b9f00029a8194') in 0.068738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.158284 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e717f28e15212a618ab43bdd5615456') in 0.068685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.736430 seconds.
-  path: Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab
-  artifactKey: Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tung9120/Defense_Game_Basic/Prefabs/Enemy/Enemy_03.prefab using Guid(f501c6d5f33aa234ab93f55b0da43439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44a242382176bb25ac22de46767981') in 0.071936 seconds 
