@@ -4,12 +4,13 @@ using UnityEngine;
 
 namespace Tung9120.DefenseBasic
 {
-    public class Player : MonoBehaviour
+    public class Player : MonoBehaviour, IComponentChecking
     {
         public float atkRate;
         private Animator m_anim;
         private float m_curAtkRate;
         private bool m_isAttacked;
+        private bool m_isDead;
 
         private void Awake()
         {
@@ -23,9 +24,15 @@ namespace Tung9120.DefenseBasic
 
         }
 
+        public bool IsComponentsNull()
+        {
+            return m_anim == null;
+        }
+
         // Update is called once per frame
         void Update()
         {
+            if (IsComponentsNull()) return;
             if (Input.GetKeyDown("space") && !m_isAttacked)
             {
                 if (m_anim)
@@ -47,8 +54,18 @@ namespace Tung9120.DefenseBasic
 
         public void ResetAtkAnim()
         {
-            if (m_anim)
-                m_anim.SetBool(Const.ATTACK_ANIM, false);
+            if (IsComponentsNull()) return;
+            m_anim.SetBool(Const.ATTACK_ANIM, false);
+        }
+
+        private void OnTriggerEnter2D(Collider2D col)
+        {
+            if(IsComponentsNull()) return;
+            if (col.CompareTag(Const.ENEMY_WEAPON_TAG)  && !m_isDead)
+            {
+                m_anim.SetTrigger(Const.DEAD_ANIM);
+                m_isDead = true;
+            }
         }
     }
 }

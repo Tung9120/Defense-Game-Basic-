@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Tung9120.DefenseBasic
 {
-    public class Enemy : MonoBehaviour
+    public class Enemy : MonoBehaviour, IComponentChecking
     {
         public float speed;
         public float atkDistance;
@@ -22,13 +22,18 @@ namespace Tung9120.DefenseBasic
         // Start is called before the first frame update
         void Start()
         {
-            
+
+        }
+
+        public bool IsComponentsNull()
+        {
+            return m_anim == null || m_rb == null || m_player == null;
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (m_rb == null || m_player == null) return;
+            if (IsComponentsNull()) return;
 
             if (Vector2.Distance(m_player.transform.position, transform.position) <= atkDistance)
             {
