@@ -34,7 +34,7 @@ namespace Tung9120.DefenseBasic
         void Update()
         {
             if (IsComponentsNull()) return;
-
+            
             float distToPlayer = Vector2.Distance(m_player.transform.position, transform.position);
 
             if (distToPlayer <= atkDistance)
