@@ -11,12 +11,15 @@ namespace Tung9120.DefenseBasic
         private Animator m_anim;
         private Rigidbody2D m_rb;
         private Player m_player;
+        private bool m_isDead;
+        private GameManager m_gm;
 
         private void Awake()
         {
             m_anim = GetComponent<Animator>();
             m_rb = GetComponent<Rigidbody2D>();
             m_player = FindObjectOfType<Player>();
+            m_gm = FindObjectOfType<GameManager>();
         }
 
         // Start is called before the first frame update
@@ -51,11 +54,15 @@ namespace Tung9120.DefenseBasic
         public void Die()
         {
             {
-                if (IsComponentsNull()) return;
+                if (IsComponentsNull() || m_isDead) return;
 
+                m_isDead = true;
                 m_anim.SetTrigger(Const.DEAD_ANIM);
                 m_rb.velocity = Vector2.zero;
                 gameObject.layer = LayerMask.NameToLayer(Const.DEAD_LAYER);
+                if (m_gm)
+                    m_gm.Score++;
+                Destroy(gameObject, 2f);
             }
         }
     }

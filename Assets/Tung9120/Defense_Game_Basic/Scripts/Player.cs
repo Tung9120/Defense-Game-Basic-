@@ -65,6 +65,7 @@ namespace Tung9120.DefenseBasic
             {
                 m_anim.SetTrigger(Const.DEAD_ANIM);
                 m_isDead = true;
+                gameObject.layer = LayerMask.NameToLayer(Const.DEAD_LAYER);
             }
         }
     }
