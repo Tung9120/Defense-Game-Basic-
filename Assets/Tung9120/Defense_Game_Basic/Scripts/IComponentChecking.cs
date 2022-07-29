@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IComponentChecking 
+namespace Tung9120.DefenseBasic
 {
-    bool IsComponentsNull();
+    public interface IComponentChecking
+    {
+        bool IsComponentsNull();
+    }
 }
