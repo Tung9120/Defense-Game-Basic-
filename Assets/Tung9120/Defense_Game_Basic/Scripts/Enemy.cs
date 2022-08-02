@@ -66,6 +66,8 @@ namespace Tung9120.DefenseBasic
                 m_gm.Score++;
                 int coinBonus = Random.Range(minCoinBonus, maxCoinBonus);
                 Pref.coins += coinBonus;
+                if (m_gm.guiMng)
+                    m_gm.guiMng.UpdateGameplayCoins();
 
                 Destroy(gameObject, 2f);
             }

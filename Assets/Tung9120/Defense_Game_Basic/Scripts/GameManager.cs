@@ -4,10 +4,11 @@ using UnityEngine;
 
 namespace Tung9120.DefenseBasic
 {
-    public class GameManager : MonoBehaviour
+    public class GameManager : MonoBehaviour, IComponentChecking
     {
         public float spawnTime;
         public Enemy[] enemyPrefabs;
+        public GUIManager guiMng;
         private bool m_isGameOver;
         private int m_score;
 
@@ -16,13 +17,26 @@ namespace Tung9120.DefenseBasic
         // Start is called before the first frame update
         void Start()
         {
-            StartCoroutine(SpawnEnemy());
+            guiMng.ShowGameGUI(false);
+            guiMng.UpdateMainCoins();
         }
 
         // Update is called once per frame
         void Update()
         {
 
+        }
+
+        public void PlayGame()
+        {
+            guiMng.ShowGameGUI(true);
+            guiMng.UpdateGameplayCoins();
+            StartCoroutine(SpawnEnemy());
+        }
+
+        public bool IsComponentsNull()
+        {
+            return guiMng == null;
         }
 
         IEnumerator SpawnEnemy()
