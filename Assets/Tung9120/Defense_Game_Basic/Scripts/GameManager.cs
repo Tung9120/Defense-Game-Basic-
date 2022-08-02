@@ -17,14 +17,22 @@ namespace Tung9120.DefenseBasic
         // Start is called before the first frame update
         void Start()
         {
+            if (IsComponentsNull()) return;
+
             guiMng.ShowGameGUI(false);
             guiMng.UpdateMainCoins();
         }
 
-        // Update is called once per frame
-        void Update()
+        public void GameOver()
         {
+            if (m_isGameOver) return;
 
+            m_isGameOver = true;
+
+            Pref.bestSore = m_score;
+
+            if(guiMng.gameoverDialog)
+                guiMng.gameoverDialog.Show(true);
         }
 
         public void PlayGame()

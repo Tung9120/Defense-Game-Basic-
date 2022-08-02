@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Tung9120.DefenseBasic
 {
-    public class SettingDialog : MonoBehaviour
+    public class SettingDialog : Dialog
     {
         // Start is called before the first frame update
         void Start()
