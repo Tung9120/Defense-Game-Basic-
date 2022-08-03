@@ -934,6 +934,7 @@ GameObject:
   - component: {fileID: 473243598}
   - component: {fileID: 473243600}
   - component: {fileID: 473243599}
+  - component: {fileID: 473243601}
   m_Layer: 5
   m_Name: PauseDialog
   m_TagString: Untagged
@@ -1001,6 +1002,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473243597}
   m_CullTransparentMesh: 1
+--- !u!114 &473243601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473243597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766324fdbd2bb594abafe5fd7eab048d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleTxt: {fileID: 0}
+  contentTxt: {fileID: 0}
 --- !u!1 &480207468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,7 +2867,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1297508283}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 473243601}
+        m_TargetAssemblyTypeName: Tung9120.DefenseBasic.PauseDialog, Assembly-CSharp
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1297508283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3808,7 +3835,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1604280219}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 473243601}
+        m_TargetAssemblyTypeName: Tung9120.DefenseBasic.PauseDialog, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1604280219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5715,7 +5754,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2016200287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 473243601}
+        m_TargetAssemblyTypeName: Tung9120.DefenseBasic.PauseDialog, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2016200287
 MonoBehaviour:
   m_ObjectHideFlags: 0
